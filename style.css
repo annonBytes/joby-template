@@ -360,3 +360,57 @@ footer li:hover {
     width: 40px;
   }
 }
+
+
+@media screen and (max-width: 667px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .call {
+    font-size: 40px;
+  }
+
+  header {
+    display: none;
+  }
+
+  .mt {
+    margin-top: 40px;
+  }
+
+  .support {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .call {
+    font-size: 30px;
+  }
+
+  header {
+    display: none;
+  }
+
+  .mt {
+    margin-top: 40px;
+  }
+
+  .support {
+    font-size: 30px;
+  }
+
+  footer ul li img {
+    width: 20px;
+  }
+}
+
+
+
