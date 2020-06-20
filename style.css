@@ -103,12 +103,17 @@ h2 {
 }
 
 header {
-  background-color: var(--primary-blue);
+/*   background-color: var(--primary-blue);
   margin-top: 80px;
   color: #fff;
   padding: 150px 0;
   position: relative;
-  margin-bottom: 250px;
+  margin-bottom: 250px; */
+  display: none
+}
+
+.mt {
+  margin-top: 180px;
 }
 
 h1 {
