@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <link rel="stylesheet" href="about.css" />
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      ScrollReveal({ duration: 1000 });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="flex">
+          <div class="img-wrapper">
+            <img src="./images/joby.png" width="200px" alt="logo" />
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <img
+              class="open"
+              src="./images/icon-hamburger.svg"
+              alt="icon-hamburger"
+            />
+            <img
+              class="close"
+              src="./images/icon-close.svg"
+              alt="icon-close "
+            />
+          </button>
+
+          <ul id="menu">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="active" href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Jobs</a>
+            </li>
+            <li>
+              <a href="#">Categories</a>
+            </li>
+            <li class="btn btn-primary">
+              <a href="#">Sign up</a>
+            </li>
+            <li class="btn btn-secondary">
+              <a href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <h1>About Us</h1>
+        <p>We Offer you the best job that match your Career</p>
+      </div>
+    </header>
+
+    <section class="team">
+      <div class="container">
+        <h2>Our Team</h2>
+        <div class="flex">
+          <div class="avatar">
+            <img src="./images/anna.png" class="duke" alt="Anna Grey" />
+            <h3>Anna Grey</h3>
+            <p>Marketing</p>
+          </div>
+          <div class="avatar">
+            <img src="./images/Robert.png" class="rob" alt="Robert Churchill" />
+            <h3>Robert Churchill</h3>
+            <p>Ceo joby</p>
+          </div>
+          <div class="avatar">
+            <img src="./images/Duke.png" class="duke" alt="Duke Hardy" />
+            <h3>Duke Hardy</h3>
+            <p>Cto</p>
+          </div>
+        </div>
+        <p class="abt">
+          A company can be created as a legal person so that the company itself
+          has limited liability as members perform or fail to discharge their
+          duty according to the publicly declared incorporation, or published
+          policy. When a company closes, it may need to be liquidated to avoid
+          further legal obligations.
+        </p>
+      </div>
+    </section>
+
+    <section class="office">
+      <h2>Office</h2>
+      <img src="./images/office.png" class="office-img" alt="office" />
+      <div class="container">
+        <h3>PRIXTON BUILDING</h3>
+        <p>56/A BRADSON ROAD, North Albania, Africa</p>
+      </div>
+    </section>
+
+    <section class="eval">
+      <div>
+        <div class="container blues">
+          <h2>Trustable and Satisfied Employee for the past 10 years</h2>
+        </div>
+      </div>
+      <img src="/images/colleagues.png" width="100%" alt="colleagues" />
+      <div class="flex">
+        <div class="blues">
+          <div class="container flex">
+            <p>
+              A company can be created as a legal person so that the company
+              itself has limited liability as members perform or fail to
+              discharge their duty
+            </p>
+            <img src="./images/iso.png" alt="iso" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container flex subscriber">
+      <p class="sub">Subscribe for Offers</p>
+      <input class="sub-put" type="email" placeholder="Your Email" />
+      <button class="btn btn-primary lg">SUBMIT</button>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="flex bottom-border">
+          <div>
+            <img src="./images/jobywhite.png" width="200px" alt="joby" />
+          </div>
+        </div>
+
+        <div class="flex">
+          <div>
+            <h4>Information</h4>
+            <ul>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Response Links</h4>
+            <ul>
+              <li>
+                <a href="#">Support</a>
+              </li>
+              <li>
+                <a href="#">Offers</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="flex">
+            <li>
+              <a href="#">
+                <img
+                  src="./images/icons8_instagram_60px_2 1.png"
+                  width="50px"
+                  alt="instagram"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./images/icons8_facebook_old_60px_3 1.png"
+                  width="50px"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./images/icons8_twitter_60px 1.png"
+                  width="50px"
+                  alt="twitter"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./images/icons8_linkedin_48px 1.png"
+                  width="50px"
+                  alt="linkedIn"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      ScrollReveal().reveal("header", { delay: 500 });
+      ScrollReveal().reveal(".team", { delay: 1000 });
+      ScrollReveal().reveal(".office", { delay: 1500 });
+    </script>
+  </body>
+  <script src="./main.js"></script>
+</html>
